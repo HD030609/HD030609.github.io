@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,29 +13,35 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+
         header {
             background-color: #333;
             color: white;
             padding: 20px 10px;
             text-align: center;
         }
+
         header h1 {
             margin: 0;
         }
+
         nav {
             background-color: #444;
             color: white;
             text-align: center;
             padding: 10px 0;
         }
+
         nav a {
             color: white;
             text-decoration: none;
             margin: 0 15px;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
+
         main {
             padding: 20px;
             max-width: 800px;
@@ -43,13 +50,16 @@
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
+
         section {
             margin-bottom: 20px;
         }
+
         section h2 {
             border-bottom: 2px solid #444;
             padding-bottom: 5px;
         }
+
         footer {
             background-color: #333;
             color: white;
@@ -57,12 +67,14 @@
             padding: 10px 0;
             margin-top: 20px;
         }
+
         footer a {
             color: #fff;
             text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>代数结构 2025春季学期</h1>
@@ -86,30 +98,56 @@
             <p><strong>上课时间：</strong>1至15周，1(1,2) 4(8,9)</p>
             <p><strong>上课地点：</strong>3C201</p>
             <p><strong>助教：</strong>丰逸飞，黑典</p>
-            <p><strong>教材：</strong><a href="https://drive.google.com/uc?id=1mWWs1QdreKuILWnY-bwudOijRFEcupYo&export=download" download>《代数结构》讲义</a></p>
-            <p><strong>参考书籍：</strong><a href="https://drive.google.com/uc?id=1mWWs1QdreKuILWnY-bwudOijRFEcupYo&export=download" download>《代数结构》讲义</a></p>
+            <p><strong>教材：</strong><a
+                    href="https://drive.google.com/uc?id=1mWWs1QdreKuILWnY-bwudOijRFEcupYo&export=download"
+                    download>《代数结构》讲义</a></p>
         </section>
         <section id="class">
             <h2>课程安排</h2>
             <ul>
-                <table>
-                    <thead>
-                      <tr>
-                        <th>周数</th>
-                        <th>日期</th>
-                        <th>内容</th>
-                        <th>作业</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>一</td>
-                        <td>2.24</td>
-                        <td>绪论</td>
-                        <td>无</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <style>
+                    table,
+                    table tr th,
+                    table tr td {
+                        border: 2px solid;
+                    }
+
+                    table {
+                        border-collapse: collapse;
+                    }
+                </style>
+                <table frame="border" rules="all" align="center" border=2px>
+
+                    <tr>
+
+                        <th> 周数 </th>
+
+                        <th> 课节 </th>
+
+                        <th> 日期 </th>
+
+                        <th> 内容 </th>
+
+                        <th> 讲义 </th>
+
+                        <th> 作业 </th>
+
+                        <th> 答案 </th>
+
+                    </tr>
+
+
+                    <tr>
+                        <td rowspan=2>&nbsp 一 &nbsp </td>
+                        <td>&nbsp 1 &nbsp </td>
+                        <td>&nbsp 09/02 &nbsp </td>
+                        <td> &nbsp 绪论 &nbsp</td>
+                        <td> &nbsp 无 &nbsp </td>
+                        <td> &nbsp 无 &nbsp </td>
+                        <td rowspan=2> &nbsp <a href="FA_ans/第一周作业答案.pdf">01</a> &nbsp </td>
+                    </tr>
+
+                </table>
             </ul>
         </section>
         <section id="review">
@@ -118,7 +156,8 @@
         </section>
     </main>
     <footer>
-        <p>版权所有 © 2025 高等数学课程组 | <a href="#top">回到顶部</a></p>
+        <p><a href="#top">回到顶部</a></p>
     </footer>
 </body>
+
 </html>
